@@ -29,7 +29,7 @@ export default class Application {
 
         // Running application.
         this._server = this._app.listen(port, () => {
-            //console.log('Server is running on port ' + port);
+            console.log('Server is running on port ' + port);
         });
     }
 
