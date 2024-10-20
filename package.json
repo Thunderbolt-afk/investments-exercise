@@ -1,11 +1,12 @@
 {
-  "name": "exercise",
+  "name": "investments-exercise",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=production && clear && nodemon build/release/index.js",
     "start:windows": "set NODE_ENV=production && clear && nodemon build/release/index.js",
+    "compile": "rm -rf ./build & tsc",
     "watch": "rm -rf ./build & tsc -w",
     "test": "clear && jest --runInBand"
   },
